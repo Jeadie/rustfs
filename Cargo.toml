@@ -159,20 +159,20 @@ serde_urlencoded = "0.7.1"
 schemars = "1.2.1"
 
 # Cryptography and Security
-aes-gcm = { version = "0.11.0-rc.3", features = ["rand_core"] }
+aes-gcm = { version = "0.11.0-rc.1", features = ["rand_core"] }
 argon2 = { version = "0.6.0-rc.8" }
 blake2 = "0.11.0-rc.5"
 chacha20poly1305 = { version = "0.11.0-rc.3" }
 crc-fast = "1.9.0"
-hmac = { version = "0.13.0-rc.5" }
+hmac = { version = "0.13.0-rc.2" }
 jsonwebtoken = { version = "10.3.0", features = ["aws_lc_rs"] }
 openidconnect = { version = "4.0", default-features = false }
 pbkdf2 = "0.13.0-rc.9"
 rsa = { version = "0.10.0-rc.17" }
 rustls = { version = "0.23.37", default-features = false, features = ["aws-lc-rs", "logging", "tls12", "prefer-post-quantum", "std"] }
 rustls-pki-types = "1.14.0"
-sha1 = "0.11.0-rc.5"
-sha2 = "0.11.0-rc.5"
+sha1 = "0.11.0-rc.2"
+sha2 = "0.11.0-rc.2"
 subtle = "2.6"
 zeroize = { version = "1.8.2", features = ["derive"] }
 
@@ -226,7 +226,7 @@ local-ip-address = "0.6.10"
 memmap2 = "0.9.10"
 lz4 = "1.28.1"
 matchit = "0.9.1"
-md-5 = "0.11.0-rc.5"
+md-5 = "0.11.0-rc.2"
 md5 = "0.8.0"
 mime_guess = "2.0.5"
 moka = { version = "0.12.15", features = ["future"] }
@@ -250,7 +250,7 @@ rumqttc = { version = "0.25.1" }
 rustix = { version = "1.1.4", features = ["fs"] }
 rust-embed = { version = "8.11.0" }
 rustc-hash = { version = "2.1.2" }
-s3s = { git = "https://github.com/rustfs/s3s", rev = "f1815ced732e180f71935feee6ae5ef44fe39b22", features = ["minio"] }
+s3s = { git = "https://github.com/Jeadie/s3s.git", rev = "c81a1766ab1e8cbc49982491ef6ae6975cfcb4d8", features = ["minio"] }
 serial_test = "3.4.0"
 shadow-rs = { version = "1.7.1", default-features = false }
 siphasher = "1.0.2"
